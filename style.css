@@ -3,14 +3,15 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .lol{
     color: orange;
 }
-section{
+.flexi{
     display: flex;
     margin-bottom: 100px;
+    margin: 2%;
 }
 .half{
     width: 50% ;
@@ -33,10 +34,48 @@ section{
     background-repeat: no-repeat;
     
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .dream{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: bottom;
     
+}
+.shadow{
+    background-color: honeydew;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px grey ;
+    padding-left: 30px;
+    
+}
+.border1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice:1;
+     
+}
+.border2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+.exp:hover{
+    box-shadow: 20px 20px 30px grey ;
+    transition: 0.3s;
+}
+footer{
+    text-align:center ;
+    color: grey;
+}
+#mid{
+    padding-left: 130px;
+    font-weight: bolder;
 }
